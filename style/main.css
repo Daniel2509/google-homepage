@@ -74,13 +74,16 @@ li {
     border: none;
     background-color: #f2f2f2;
     padding: auto;
+    font-weight: bold;
+    color: #000;
+    opacity: 0.65;
 }
 
 #footer{
 	position: absolute;
 	bottom: 0px;
 	background-color: #f2f2f2;
-	height: 40px;
+	height: 41px;
 	width: 100%;
 	border-top: 0.75px solid #d9d9d9;
 	margin: 0;
@@ -91,14 +94,14 @@ li {
 	position: absolute;
 	left: -5px;
 	margin: 0;
-	padding: 13px 27px;
+	padding: 11px 27px;
 }
 
 #footer #footer-right{
 	position: absolute;
 	right: 0px;
 	margin: 0;
-	padding: 13px 27px;
+	padding: 11px 27px;
 }
 
 #footer li{
@@ -137,13 +140,11 @@ li {
 
 #search button:link{
 	text-decoration: none;
-	color: #000;
-	opacity: 0.5;
-	font-weight: bold;
 }
 
 #search button:hover{
 	border: 1px solid #808080;
+    color: #000;
 }
 
 #search button:visited{
