@@ -57,14 +57,19 @@ li {
     width: 325px;
 }
 
-#search input {
-    display: block;
+
+#search .searchBar input {
+    display: inline-block;
     margin: 15px auto;
     height: 34px;
     width: 550px;
     line-height: 12px;
     padding-left: 15px;
+    box-shadow: 0 1px 3px #dcdcdc;
+    border: 1px;
+    background: url("../images/mic.png") no-repeat right;
 }
+
 
 #search button {
     display: inline-block;
@@ -90,14 +95,14 @@ li {
 	padding: 0;
 }
 
-#footer #footer-left{
+#footer #footerl{
 	position: absolute;
 	left: -5px;
 	margin: 0;
 	padding: 11px 27px;
 }
 
-#footer #footer-right{
+#footer #footerr{
 	position: absolute;
 	right: 0px;
 	margin: 0;
@@ -130,7 +135,7 @@ li {
     text-decoration: none;
 }
 
-#header #login a:hover {
+#header #login, a:hover {
     text-decoration: none;
 }
 
@@ -150,3 +155,4 @@ li {
 #search button:visited{
 	color: inherit;
 }
+
